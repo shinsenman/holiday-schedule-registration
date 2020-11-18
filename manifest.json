@@ -1,0 +1,11 @@
+{
+	"name": "Holiday Schedule Registration",
+	"version": "1.0",
+	"description": "This app registrate your holiday schedule from kintone to Garoon.",
+	"permission": ["declarativeContent", "storage"],
+	"background": {
+		"scripts": ["registration.js"],
+		"persistent": false
+	},
+	"manifest_version": 2
+}
